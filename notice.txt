@@ -1,0 +1,76 @@
+
+locator 
+page.get_by_role
+page.get_by_label
+page.get_by_text
+page.get_by_placeholder
+
+---------------------------------
+
+actions like [.click()
+.fill()
+.press()
+.check()
+.uncheck()
+.select_option()
+.hover()]
+
+----------------------------------
+
+assertions
+expect(locator).to_be_visible()
+expect(locator).to_be_hidden()
+expect(locator).to_have_text()
+expect(locator).to_contain_text()
+expect(locator).to_have_value()
+expect(locator).to_be_enabled()
+expect(locator).to_be_disabled()
+expect(page).to_have_title()
+expect(page).to_have_url()
+
+-------------------------------------
+
+get_by_role
+get_by_label
+get_by_placeholder
+get_by_text
+get_by_test_id()
+
+-----------------------
+
+1. Python functions
+        ↓
+2. Playwright test structure
+        ↓
+3. page.goto()
+        ↓
+4. LOCATORS ⭐⭐⭐⭐⭐
+        ↓
+5. ACTIONS ⭐⭐⭐⭐⭐
+        ↓
+6. ASSERTIONS ⭐⭐⭐⭐⭐
+        ↓
+7. Waits / auto-waiting
+        ↓
+8. Forms
+        ↓
+9. Dropdowns / checkboxes
+        ↓
+10. Alerts / dialogs
+        ↓
+11. Frames
+        ↓
+12. Multiple pages/tabs
+        ↓
+13. Network
+        ↓
+14. Fixtures
+        ↓
+15. Page Object Model
+        ↓
+16. Test organization
+        ↓
+17. Reports
+        ↓
+18. CI/CD
+
